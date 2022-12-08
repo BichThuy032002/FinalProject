@@ -1,0 +1,195 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+}
+.container{
+    margin:20px;
+}
+.row{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    position: relative;
+    background-color: white;
+    flex:1;
+    max-width: 1200px;
+    height:50px;
+    margin:10px;
+ 
+}
+.header p span img{
+    width: 50px;
+    height: auto;
+    float: left;
+ 
+}
+.nav{
+    position: relative;
+    background-color: white;
+    flex:1;
+    max-width: 1200px;
+    height:50px;
+    margin:10px;  
+}
+.nav ul{
+    display: flex;
+    align-items: left;
+    margin-right: 20px;
+}
+ 
+ .nav ul li{
+    list-style: none;
+ 
+}
+.nav ul li a{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 40px;
+    transition: all 0.3s;
+    position: relative;
+}
+.nav ul li a:hover{
+    color:blue;
+}
+ 
+ 
+.pp{
+    position: relative;
+    background-color:#FBBC04;
+    flex:1;
+    max-width: 1200px;
+    height:70px;
+    margin:10px;  
+}
+.item-left{
+    position: relative;
+    background-color:white;
+    flex:1;
+    max-width: 900px;
+    height:600px;
+    margin:10px;  
+}
+
+.item-right{
+    position: relative;
+    background-color:white;
+    flex:1;
+    max-width: 350px;
+    height:600px;
+    margin:10px;  
+ 
+}
+.item-left img{
+    width:150px;
+    height:150px;
+    float:left;
+    border-radius:10px;
+}
+
+     
+    .item-right
+    {
+        border:1px solid gainsboro;
+        border-radius:30px;
+        height:380px;
+     
+    }
+   
+.footer{
+    position: relative;
+    background-color:white;
+    flex:1;
+    max-width: 1000px;
+    height:500px;
+    margin:10px;  
+}
+ 
+ 
+ 
+   
+.tb1
+   { width:640px;
+    border:1px solid gainsboro;
+    height:180px;
+}
+.tb1 tr td{
+    width:320px;
+ 
+ 
+   
+}
+ 
+ 
+.input1{
+    width:150px;
+    height:30px;
+    border-radius: 5px solid gainsboro;
+}
+.input2{
+    width:120px;
+    height:20px;
+    border-radius: 5px;
+}
+.input3{
+    width:200px;
+    height:40px;
+    border-radius: 15px;
+    background-color:#F1A039;
+    font-weight: bold;
+}
+.input4{
+    width:17cm;
+    height:25px;
+    border-radius: 5px;  
+}
+.input5{
+    width:8cm;
+    height:25px;
+    border-radius: 5px;  }
+ 
+   
+.footer div button{
+        width: 150px;
+        height:50px;
+        background-color:gray;
+ 
+}
+.footer div button:hover{
+        background-color: #F1A039;
+}
+ 
+ 
+ 
+ 
+ 
+@media(max-width:800px){
+    .header{
+        flex:100%;
+        max-width: 600px;
+    }
+    .nav{
+        flex:100%;
+        max-width: 600px;
+    }
+    .pp{
+        flex:100%;
+        max-width: 600px;
+    }
+    .item-left{
+        flex:100%;
+        max-width: 600px;
+    }
+    .item-right{
+        flex:100%;
+        max-width: 400px;
+    }
+    .footer{
+        flex:100%;
+        max-width: 600px;  
+    }
+}
+
